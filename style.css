@@ -1,0 +1,239 @@
+
+  *{
+    padding: 0;
+    margin: 0;
+
+  }
+  .header {
+    min-height: 100vh;
+    width: 100%;
+    background-image:  url("images/desktop.jpeg");
+    background-size: cover; /* Make the background image cover the entire viewport */
+    background-position: center; /* Center the background image */
+    position: relative;
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+  }
+  .text-overlay {
+    position: absolute; /* Position the text overlay absolutely within the container */
+    top: 50%; /* Adjust vertical position as needed */
+    left: 30%; /* Adjust horizontal position as needed */
+    transform: translate(-50%, -50%); /* Center the text vertically and horizontally */
+    padding: 20px; /* Add padding to the text overlay */
+    color: #fffcfc;
+  }
+  .text-overlay h2 {
+    margin: 0; /* Remove default margin from heading */
+    font-size: 50px;
+    text-align: center;
+  }
+  .text-overlay1 {
+    position: absolute; /* Position the text overlay absolutely within the container */
+    top: 58%; /* Adjust vertical position as needed */
+    left: 22%; /* Adjust horizontal position as needed */
+    transform: translate(-50%, -50%); /* Center the text vertically and horizontally */
+    padding: 20px; /* Add padding to the text overlay */
+    color: #fffcfc;
+    font-family: "Arial", sans-serif;
+  }
+  .text-overlay1 h2 {
+    margin: 0; /* Remove default margin from heading */
+    font-size: 18px;
+    text-align: center;
+  }
+  .strip {
+    background-color: #111116; /* Change this to your desired color */
+    height: 50px; /* Adjust the height of the strip */
+    width: 100%; /* Make the strip span the full width of the viewport */
+  }
+   .nav-links {
+    list-style: none;
+    padding: 4px 5px;
+    display: flex;
+  }
+  .nav-links ul{
+    flex: 1;
+    text-align: left;
+  }
+  
+  .nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 4px 6px;
+    position: relative;
+    margin-left: 30px;
+    margin-top: 10px;
+    
+    /* Avoid using position: absolute; and top: 3.5%; */
+  }
+  .nav-links ul li a{
+    color: #f0eded;
+    text-decoration: none;
+  }
+  .rectangle {
+    margin-top: 10px;
+    background-color: #111116; /* Change this to your desired color */
+    height: 700px; /* Adjust the height of the strip */
+    width: 100%;
+    margin-bottom: 10px;
+
+  }
+  .about h2{
+    font-size: 50px;
+    text-align: center;
+    color: #fdf9f9;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 500px;
+  }
+  #aboutme{
+    color: white;
+    text-align: justify;
+    position: absolute;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 200px;
+    font-size: 20px;
+    font-family: "Garamound", sans-serif;
+    }
+    #aboutme {
+      border-top: 2px solid #f10909; /* Add a solid red line above the paragraph */
+      padding-top: 20px; /* Add some spacing between the line and the paragraph text */
+  }
+  #Project {
+    min-height: 100vh;
+    width: 100%;
+    background-image:  url("images/project.jpg");
+    background-size: cover; /* Make the background image cover the entire viewport */
+    background-position: center; /* Center the background image */
+    position: relative;
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+  }
+  .rectangle1 {
+    margin-top: 10px;
+    background-color: #111116; /* Change this to your desired color */
+    height: 440px; /* Adjust the height of the strip */
+    width: 50%;
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 450px;
+    box-shadow: 10px 10px 0.1px rgba(11, 10, 10, 0.1);
+    margin-bottom: 15px;
+
+  }
+  #Project h2{
+    font-size: 50px;
+    text-align: center;
+    color: #fdf9f9;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 170px;
+  }
+  #about_project{
+    color: white;
+    text-align: justify;
+    position: absolute;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 150px;
+    font-size: 20px;
+    font-family: "Garamound", sans-serif;
+  }
+  #about_project {
+    border-top: 2px solid #f10909; /* Add a solid red line above the paragraph */
+    padding-top: 15px; /* Add some spacing between the line and the paragraph text */
+  }
+
+  a {
+    color: rgb(237, 226, 107); /* Default link color */
+    text-decoration: none; /* Remove underline */
+}
+a:visited {
+  color: rgb(237, 226, 107); /* Visited link color */
+}
+#interest {
+  min-height: 100vh;
+  width: 100%;
+  background-image:  url("images/art.jpg");
+  background-size: cover; /* Make the background image cover the entire viewport */
+  background-position: center; /* Center the background image */
+  position: absolute;
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  margin-top: 360px;
+}
+.rectangle2 {
+  margin-top: 10px;
+  background-color: #111116; /* Change this to your desired color */
+  height: 660px; /* Adjust the height of the strip */
+  width: 50%;
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 450px;
+  box-shadow: 10px 10px 0.1px rgba(11, 10, 10, 0.1);
+  margin-bottom: 15px;
+
+}
+#interest h2{
+  font-size: 50px;
+  text-align: center;
+  color: #fdf9f9;
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 130px;
+}
+#myinterest{
+  color: white;
+  text-align: justify;
+  position: absolute;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 150px;
+  font-size: 20px;
+  font-family: "Garamound", sans-serif;
+}
+#myinterest {
+  border-top: 2px solid #f10909; /* Add a solid red line above the paragraph */
+  padding-top: 15px; /* Add some spacing between the line and the paragraph text */
+}
+#contact {
+  min-height: 100vh;
+  width: 100%;
+  background-image:  url("images/contact1.png");
+  background-size: cover; /* Make the background image cover the entire viewport */
+  background-position: center; /* Center the background image */
+  position: absolute;
+  background-repeat: no-repeat;
+  margin-top: 1500px; /* Prevent the background image from repeating */
+}
+.fa-brands {
+  color: #f0eded;
+  font-size: 45px;
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 80px;
+
+}
+.fa-facebook {
+  color: #f0eded;
+  font-size: 45px;
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 140px;
+
+}
+#contact h2{
+  font-size: 30px;
+  text-align: center;
+  color: #fdf9f9;
+  position: absolute;
+  margin-top: 250px;
+  margin-left: 60px;
+  text-decoration: underline;
+}
+.fa-solid{
+  color: #f0eded;
+  font-size: 48px;
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 210px;
+
+}
